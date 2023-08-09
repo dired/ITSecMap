@@ -24,8 +24,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.3acac6b7.js"),
-						import("/_app/immutable/entry/app.610f30e0.js")
+						import("/ITSecMap/_app/immutable/entry/start.3acac6b7.js"),
+						import("/ITSecMap/_app/immutable/entry/app.610f30e0.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
